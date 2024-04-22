@@ -6,7 +6,7 @@ var rn;
 //creation mof bubble
 function makeBubble() {
     var clutter = " ";
-    for (var i = 1; i <= 97; i++) {
+    for (var i = 1; i <= 96; i++) {
 
         rn = Math.floor(Math.random() * 10);
         clutter += `<div class="bubble">  ${rn} </div>`;
